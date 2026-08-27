@@ -1,0 +1,11 @@
+INFO     ui_automation:conftest.py:290 启动浏览器: chromium (headless=False)
+INFO     ui_automation:conftest.py:291 说明：本框架使用 Playwright 自带的独立浏览器二进制（与系统已安装的 Chrome 是两个互不相干的进程），不会关闭、也不会复用你正在使用的 Chrome 窗口；每次运行都会新开一个独立的测试浏览器窗口/进程。
+INFO     ui_automation:test_login.py:120 开始场景: success (username=admin, captcha=0000, mode=universal)
+INFO     ui_automation:base_page.py:92 打开页面: http://10.12.1.24:981/loginRisk
+INFO     ui_automation:login_page.py:97 浏览器窗口已通过 CDP 最大化
+INFO     ui_automation:login_page.py:410 ✅ 部门已加载: ZX测试组织001A (id=739832157639282688)
+INFO     ui_automation:login_page.py:354 执行登录（第 1/1 次）：username=admin, captcha=0000（来源：手动指定，密码已隐藏）
+WARNING  ui_automation:login_page.py:474 登录成功判定超时（8000 ms）: url=http://10.12.1.24:981/loginRisk -> False
+WARNING  ui_automation:login_page.py:366 第 1 次登录未成功（页面提示: ''），尝试次数已用完
+WARNING  ui_automation:login_page.py:474 登录成功判定超时（10000 ms）: url=http://10.12.1.24:981/loginRisk -> False
+INFO     ui_automation:conftest.py:312 关闭测试浏览器（仅关闭本框架启动的实例，不影响你正在使用的 Chrome）

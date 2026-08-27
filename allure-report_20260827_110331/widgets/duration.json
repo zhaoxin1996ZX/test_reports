@@ -1,0 +1,1 @@
+[{"uid":"43d7ba45c68defa7","name":"正常登录：自动识别验证码（图像识别路径，需 pip install ddddocr）","time":{"start":1787799847178,"stop":1787799851497,"duration":4319},"status":"passed","severity":"normal"},{"uid":"a5bc899314ca6c8a","name":"正常登录：正确的用户名、密码与万能验证码","time":{"start":1787799820678,"stop":1787799844454,"duration":23776},"status":"failed","severity":"normal"}]
